@@ -99,4 +99,8 @@ public class ProjectService {
         log.debug("Request to delete Project : {}", id);
         projectRepository.deleteById(id);
     }
+
+    public void newMethod() {
+        log.debug("work");
+    }
 }
