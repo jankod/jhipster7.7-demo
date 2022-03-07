@@ -23,6 +23,7 @@ export class ProjectUpdateComponent implements OnInit {
     id: [],
     name: [null, [Validators.required, Validators.minLength(2), Validators.maxLength(80)]],
     owner: [],
+
   });
 
   constructor(
